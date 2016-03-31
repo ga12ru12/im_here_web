@@ -17,9 +17,8 @@ body{
 .info-div{
     position: absolute;
     top: 0;
-    bottom: 0;
+    right: 0;
     left: 0;
-    width: 250px;
     z-index: 99;
     background-color: white;
 }
@@ -27,11 +26,19 @@ body{
     text-align: center;
     color: white;
     background-color: #EF524D;
-
+    position: relative;
+    padding: 5px 0;
+}
+.info-div .header-div span{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 .info-div .header-div img{
     background-color: #eee;
     border: 4px solid white;
     border-radius: 50%;
-    width: 100px;
+    width: 35px;
+    vertical-align: middle;
 }
